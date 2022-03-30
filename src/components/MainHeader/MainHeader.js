@@ -6,7 +6,7 @@ import classes from './MainHeader.module.css';
 const MainHeader = (props) => {
   return (
     <header className={classes['main-header']}>
-      <h1>일반적인 페이지</h1>
+      <h1>Sample page</h1>
       <Navigation />
     </header>
   );
