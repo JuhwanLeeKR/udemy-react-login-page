@@ -7,7 +7,7 @@ const MainHeader = (props) => {
   return (
     <header className={classes['main-header']}>
       <h1>일반적인 페이지</h1>
-      <Navigation onLogout={props.onLogout} />
+      <Navigation />
     </header>
   );
 };

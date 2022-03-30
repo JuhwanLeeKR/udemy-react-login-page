@@ -8,7 +8,7 @@ const Home = (props) => {
   return (
     <Card className={classes.home}>
       <h1>어서오세요 반갑습니다 😀</h1>
-      <Button onClick={props.onLogout}>Logout</Button>
+      <Button>Logout</Button>
     </Card>
   );
 };
